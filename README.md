@@ -30,7 +30,7 @@
 **So that** I can be provided with suitable advice and information.
 
 **As an** adolescent browsing social media and feeling low  
-**I would like to** be given a list of suggestions for exercises that would help me with my self-esteem
+**I would like to** be given a list of suggestions for exercises that would help me with my self-esteem  
 **So that** I can try them out and improve my self-esteem.
 
 **As an** adolescent browsing social media and feeling low  
