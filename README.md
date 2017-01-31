@@ -52,8 +52,10 @@
 
 ### Tuesday
 
+- Design app flow & storyboards
+- Decide on fonts & colours
 - Website layout
-- Graphic design, fonts & colours
+- Graphic design
 - Animations
 - Mock content
 
@@ -67,7 +69,22 @@
 
 - Implement Chrome extension (stretch goal)
 
+## Design
+
+#### Fonts
+- Body text: Alegreya Sans (3 weights)
+- Headings: Gloria Hallelujah
+- Fallbacks: Sans-Serif, Helvetica
+
+#### Colour palette
+- color1: hsla(0%, 0%, 99%, 1);
+- color2: hsla(231%, 80%, 80%, 1);
+- color3: hsla(30%, 91%, 56%, 1);
+- color4: hsla(163%, 100%, 33%, 1);
+- color5: hsla(211%, 56%, 43%, 1);
+
 ## Tech stack
 
-- Front-end: HTML, CSS, JavaScript, Chrome extension
-- Back-end: Hapi, Handlebars templating, PostgreSQL, OAuth
+- Front-end: HTML, CSS, Bootstrap,  JavaScript   
+- Back-end: Hapi, Handlebars templating, PostgreSQL, OAuth  
+- Chrome extension
