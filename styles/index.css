@@ -1,0 +1,124 @@
+* {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+body {
+  background-color: hsla(0, 0%, 99%, 1);
+}
+/*
+color1: hsla(0, 0%, 99%, 1);
+color2: hsla(231, 80%, 80%, 1); 163 175 245
+color3: hsla(30, 91%, 56%, 1); 245 143 41
+color4: hsla(163, 100%, 33%, 1); 0 168 121
+color5: hsla(211, 56%, 43%, 1); 48 108 171
+*/
+
+
+.heading, h2, h4 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2em;
+}
+
+.navbar-custom * {
+  font-family: 'Gloria Hallelujah', cursive;
+  background-color: hsla(163, 100%, 33%, 1);
+  font-size: 1.1em
+}
+
+.nav.navbar-nav li a {
+   color: #fff;
+ }
+
+.glyphicon {
+  font-family: inherit;
+}
+
+.glyphicon:before {
+  font-family: 'Glyphicons Halflings';
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+.top-buffer-large {
+  margin-top: 100px;
+}
+
+.negative-buffer {
+  margin-top: -120px;
+}
+
+#dropdown-custom, #dropdown-custom:hover, #dropdown-custom:active {
+  background-color: white;
+  background-image: url('../assets/images/panel-blue.png'); !important;
+  background-size: 100% 100%;
+  height: 40px;
+  width: 100px;
+  border: 0px solid white !important;
+  font-size: 1.3em;
+  width: 160px;
+  color: black;
+  outline: 0;
+}
+
+.caret {
+  float: right;
+  margin-top: 10px;
+  border-top: 8px dashed;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+
+#welcome-msg-1 {
+  color: hsla(211, 56%, 43%, 1);
+}
+
+#welcome-msg-2 {
+  color: hsla(30, 91%, 56%, 1);
+}
+
+#panel-facts {
+  background-image: url('../assets/images/panel-orange.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 270px;
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+#panel-exercises {
+  background-image: url('../assets/images/panel-green.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 270px;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+#panel-testimonials {
+  background-image: url('../assets/images/panel-blue.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 270px;
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+#panel-facts:hover, #panel-exercises:hover, #panel-testimonials:hover, #dropdown-custom:hover {
+  cursor: pointer;
+}
+
+#panel-facts:active, #panel-exercises:active, #panel-testimonials:active, #dropdown-custom:active {
+  top: 5px;
+  cursor: pointer;
+}
