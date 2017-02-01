@@ -1,3 +1,31 @@
+@import url("facts-styles.css");
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-color: hsla(0, 0%, 99%, 1);
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+/*Navigation menu*/
+
+.navbar *, .heading {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: auto;
+}
+
+.navbar, .navbar-default, .navbar-nav>li>a {
+  background-color: hsla(163, 100%, 33%, 1);
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: hsla(0, 0%, 99%, 1);
 }
