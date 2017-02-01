@@ -1,5 +1,6 @@
-@import url("index.css");
+@import url("landing.css");
 @import url("facts-styles.css");
+@import url("exercises.css");
 
 * {
   box-sizing: border-box;
