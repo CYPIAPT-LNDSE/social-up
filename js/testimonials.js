@@ -80,6 +80,7 @@
     FallingObjBackground.initialize('../assets/icons/pin-black.png');
     // make all sticky notes appear one after the other
     $('.sticky-note').each(function(index) {
+      console.log(index,this);
       $(this).hide().delay(800*index).fadeIn(1000);
     });
   });

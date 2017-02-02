@@ -1,0 +1,91 @@
+/*
+color1: hsla(0, 0%, 99%, 1);
+color2: hsla(231, 80%, 80%, 1); 163 175 245
+color3: hsla(30, 91%, 56%, 1); 245 143 41
+color4: hsla(163, 100%, 33%, 1); 0 168 121
+color5: hsla(211, 56%, 43%, 1); 48 108 171
+*/
+
+body {
+  counter-reset: item;
+}
+
+p, ol {
+  font-size: 1.4em;
+}
+
+#exercises-content {
+  margin-top: 100px;
+}
+
+#monster-path {
+  width: 85%;
+}
+
+#glasses-image {
+  width: 80%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#glasses-caption {
+  font-style: italic;
+}
+
+#beliefs-exercise {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#beliefs-list {
+  list-style: none;
+  padding-left: 15px;
+}
+
+#beliefs-list li {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+
+#beliefs-list li:before {
+  margin-right: 15px;
+  content: counter(item);
+  background: hsla(211, 56%, 43%, 1);
+  border-radius: 100%;
+  color: white;
+  width: 1.2em;
+  text-align: center;
+  display: inline-block;
+}
+
+#button-share, #button-share:hover, #button-share:active,
+#button-next, #button-next:hover, #button-next:active {
+  background-color: white;
+  background-image: url('../assets/images/panel-blue.png'); !important;
+  background-size: 100% 100%;
+  height: 50px;
+  width: 200px;
+  border: 0px solid white !important;
+  font-size: 1.3em;
+  color: black;
+  outline: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#button-share:hover, #button-next:hover {
+  cursor: pointer;
+}
+
+#button-share:active, #button-next:active {
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+}
+
+#button-share {
+  margin-right: 10px;
+  margin-left: 30px;
+}
