@@ -36,7 +36,7 @@
 .testimonial-text {
   transform: rotate(-8deg);
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 1.6rem;
+  font-size: 2rem;
   width: 90%;
 }
 
@@ -77,8 +77,8 @@
   background-size: 250px 51px;
   display: inline-block;
   position: absolute;
-  bottom: 50px;
-  right: 30px;
+  bottom: 70px;
+  right: 40px;
 }
 
 /*Modifiers to move across the sprite, depending on the emotion related to the note:

@@ -15,15 +15,67 @@ p, ol {
 }
 
 #exercises-content {
-  margin-top: 100px;
+  margin-top: 80px;
+  max-width: 600px;
 }
 
-#monster-path {
+#exerise-path {
+  position: relative;
+}
+
+#path-image {
+  margin-top: 150px;
   width: 85%;
 }
 
+#monster {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 95px;
+  left: -55px;
+}
+
+.path-button {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  opacity: 0;
+  border-radius: 100%;
+}
+
+#path-button-1 {
+  position: absolute;
+  top: 150px;
+  left: 60px;
+}
+
+#path-button-2 {
+  position: absolute;
+  top: 219px;
+  left: 243px;
+}
+
+#path-button-3 {
+  position: absolute;
+  top: 414px;
+  left: 80px;
+}
+
+#path-button-4 {
+  position: absolute;
+  top: 535px;
+  left: 192px;
+}
+
+#path-button-5 {
+  position: absolute;
+  top: 662px;
+  left: 145px;
+}
+
 #glasses-image {
-  width: 80%;
+  width: 70%;
   margin-left: 20px;
   margin-bottom: 20px;
 }
