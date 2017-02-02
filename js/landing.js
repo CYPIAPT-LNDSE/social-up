@@ -38,5 +38,5 @@ $(document).ready(function() {
   $("#panel-facts").hide();
   $("#panel-exercises").hide();
   $("#panel-testimonials").hide();
-  
+
 });
