@@ -10,9 +10,14 @@
     <link href="../styles/main.css" type="text/css" rel="stylesheet">
     <title>SocialUp</title>
   </head>
-  <body>
+  <body id="landing-body">
     <nav class="navbar navbar-default navbar-custom">
       <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">
+            <object id="cloud-logo" type="image/svg+xml" data="../assets/icons/cloud.svg" width="40"></object>
+          </a>
+        </div>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">Hello James <span class="glyphicon glyphicon-user"></span></a></li>
         </ul>
@@ -20,7 +25,7 @@
     </nav>
     <div class="container-fluid">
     <div class="row top-buffer-large">
-      <div class="col-xs-12 col-xs-offset-1" id="feelings-title">
+      <div class="col-xs-6 col-xs-offset-1" id="feelings-title">
         <h2>What's your mood like right now?</h2>
       </div>
     </div>
@@ -45,7 +50,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-xs-offset-6" id="feelings-strength-title">
+      <div class="col-xs-6 col-xs-offset-6" id="feelings-strength-title">
         <h2>How strong are your feelings?</h2>
       </div>
     </div>
@@ -68,7 +73,7 @@
       </div>
     </div>
     <div class="row negative-buffer">
-      <div class="col-xs-10 col-xs-offset-5">
+      <div class="col-xs-12">
         <h2 id="welcome-msg-2">They're not.</h2>
       </div>
     </div>
