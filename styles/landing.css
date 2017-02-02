@@ -2,8 +2,8 @@
   font-family: 'Alegreya Sans', sans-serif;
 }
 
-body {
-  background-color: hsla(0, 0%, 99%, 1);
+#landing-body {
+  overflow-x: hidden;
 }
 
 .heading, h2, h4 {
@@ -69,6 +69,7 @@ body {
 
 #welcome-msg-2 {
   color: hsla(30, 91%, 56%, 1);
+  text-align: center;
 }
 
 #panel-facts {
