@@ -71,7 +71,7 @@
       }
 
       // start setInterval that repeats every 10ms and stops after 3s
-      setTimedInterval($.proxy(this.draw, this), 10, 5000);
+      setTimedInterval($.proxy(this.draw, this), 10, 4000);
     }
   };
 
@@ -80,7 +80,6 @@
     FallingObjBackground.initialize('../assets/icons/pin-black.png');
     // make all sticky notes appear one after the other
     $('.sticky-note').each(function(index) {
-      console.log(index,this);
       $(this).hide().delay(800*index).fadeIn(1000);
     });
   });
