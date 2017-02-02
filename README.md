@@ -56,20 +56,20 @@
 - Decide on fonts & colours
 - Website layout
 - Graphic design
-- Animations
 - Mock content
 
 ### Wednesday
-
-- Personalization options
-- CBT content (tbc by product owner)
+- Animations
+- Refine styling
+- Check app flow and refactor
 - Mock Chrome extension
 
 ### Thursday
+- Deploy on GitHub pages
+- Fix bugs
+- Prepare demo for presentation
 
-- Implement Chrome extension (stretch goal)
-
-## Design
+## Design decisions
 
 #### Fonts
 - Body text: Alegreya Sans (3 weights)
@@ -83,8 +83,26 @@
 - color4: hsla(163%, 100%, 33%, 1);
 - color5: hsla(211%, 56%, 43%, 1);
 
-## Tech stack
+## Technical decisions
 
+### Platform 
+- To ensure immediacy, the app has to be fully integrated with the social media platform, which is Facebook for the prototyping stage.
+- A Chrome extension fulfills the aspect of immediacy and ensures a large user base (74% of desktop users browse on Chrome).
+- Social media usage is higher on mobile than on desktop for adolescents. However, a mobile app that interacts directly with the social media app is technically very difficult to develop on Android and not possible to build on iOS. 
+
+### Tech stack
 - Front-end: HTML, CSS, Bootstrap,  JavaScript   
 - Back-end: Hapi, Handlebars templating, PostgreSQL, OAuth  
 - Chrome extension
+
+## Future
+### MVP development
+- Integrate suggestions and feedback from user testing
+- Collect CTB content (resources, facts, exercises) with the help of the product owner
+- Explore personalisation options (to be discussed with the product owner)
+- Add user authentication options
+- Build Chrome extension and deploy
+
+### Long-term scalability 
+- Starting with piloting SocialUp on Google Chrome only, the next steps would be to expand to Firefox and Safari.
+- A native app on Android is an option for mobile devices. 
