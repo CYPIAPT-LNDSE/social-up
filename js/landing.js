@@ -1,5 +1,4 @@
-(function() {
-  $(document).ready(function() {
+$(document).ready(function() {
 
     var showText = function (target, message, index, interval) {
       if (index < message.length) {
@@ -40,5 +39,4 @@
     $("#panel-exercises").hide();
     $("#panel-testimonials").hide();
 
-  });
-})()
+});
