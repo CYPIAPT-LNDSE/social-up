@@ -1,6 +1,6 @@
 @import url("landing.css");
-@import url("facts-styles.css");
-@import url("testimonials-styles.css");
+@import url("facts.css");
+@import url("testimonials.css");
 @import url("exercises.css");
 
 * {
@@ -26,7 +26,7 @@ body {
 .navbar, .navbar-default, .navbar-nav>li>a {
   background-color: hsla(163, 100%, 33%, 1);
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 
 .navbar-default .navbar-nav>li>a {

@@ -1,12 +1,8 @@
-* {
-  font-family: 'Alegreya Sans', sans-serif;
-}
-
 #landing-body {
   overflow-x: hidden;
 }
 
-.heading, h2, h4 {
+.landing-heading {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 2em;
 }

@@ -70,4 +70,23 @@ $(document).ready(function() {
     }, 500);
   });
 
+  $("#button-next").click(function(){
+  var monster = $("#monster");
+    monster.fadeOut(400);
+    $("#exercises-content").fadeOut(400);
+    setTimeout(function() {
+      $("#exercises-content").fadeIn(400);
+      monster.css({
+        top: monster.position().top+110+'px',
+        left: monster.position().left+270+'px',
+      })
+      .fadeIn(400);
+    }, 500);
+  });
+
+  $("#button-share").click(function(){
+    window.open("testimonials.html","_self")
+    // location.href = "testimonials.html";
+  });
+
 });

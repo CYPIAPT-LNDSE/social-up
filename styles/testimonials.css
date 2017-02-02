@@ -13,17 +13,21 @@
   left: 0;
 }
 
-/*Testimonials on sticky notes*/
+/*Testimonials and sticky notes*/
+
+.row--half-height {
+  height: 45vh;
+}
 
 #testimonials-content {
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 .testimonial-note {
   background-repeat: no-repeat;
   background-size: contain;
-  height: 250px;
-  width: 250px;
+  height: 40vh;
+  width: 40vh;
   text-align: left;
   padding: 50px 20px 20px;
   position: relative;
@@ -32,7 +36,7 @@
 .testimonial-text {
   transform: rotate(-8deg);
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 1.6rem;
+  font-size: 2rem;
   width: 90%;
 }
 
@@ -73,8 +77,8 @@
   background-size: 250px 51px;
   display: inline-block;
   position: absolute;
-  bottom: 50px;
-  right: 30px;
+  bottom: 70px;
+  right: 40px;
 }
 
 /*Modifiers to move across the sprite, depending on the emotion related to the note:
@@ -104,6 +108,7 @@ sadness, anger, joy, fear, disgust*/
 
 #sticky-note-1 {
   padding-left: 30px;
+  padding-top: 20px;
 }
 
 #sticky-note-2 {
@@ -120,8 +125,19 @@ sadness, anger, joy, fear, disgust*/
 
 #sticky-note-5 {
   padding-left: 110px;
+  padding-top: 15px;
 }
 
 #sticky-note-6 {
   padding-left: 30px;
+  padding-top: -5px;
+}
+
+/*Add note icon*/
+.add-note-icon {
+  font-size: 3.5rem;
+  position: relative;
+  top: 35%;
+  left: 38%;
+  color: #111;
 }
