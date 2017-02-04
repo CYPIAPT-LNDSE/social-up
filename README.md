@@ -91,8 +91,8 @@
 - Social media usage is higher on mobile than on desktop for adolescents. However, a mobile app that interacts directly with the social media app is technically very difficult to develop on Android and not possible to build on iOS. 
 
 ### Tech stack
-- Front-end: HTML, CSS, Bootstrap,  JavaScript   
-- Back-end: Hapi, Handlebars templating, PostgreSQL, OAuth  
+- Front-end: HTML, CSS, Bootstrap,  JavaScript (jQuery)   
+- Back-end: hapi.js, Handlebars.js templating, PostgreSQL, OAuth  
 - Chrome extension
 
 ## Future
