@@ -90,15 +90,26 @@
 - A Chrome extension fulfills the aspect of immediacy and ensures a large user base (74% of desktop users browse on Chrome).
 - Social media usage is higher on mobile than on desktop for adolescents. However, a mobile app that interacts directly with the social media app is technically very difficult to develop on Android and not possible to build on iOS. 
 
-### Tech stack
-- Front-end: HTML, CSS, Bootstrap,  JavaScript (jQuery)   
-- Back-end: hapi.js, Handlebars.js templating, PostgreSQL, OAuth  
+### Tech stack - currently implemented
+- Front-end: HTML, CSS, Bootstrap,  JavaScript (jQuery)
+- Chrome extension (mocked)
+
+### Tech stack - MVP
+- Front-end as above
+- Back-end: hapi.js, Handlebars.js templating
+- User database: PostgreSQL
+- User authentication: Hapi.js or OAuth (Facebook if possible)  
 - Chrome extension
 
 ## Future
-### MVP development
+### MVP development - content
+(with the help of the product owner and colleagues from his clinic)
 - Integrate suggestions and feedback from user testing
-- Collect CTB content (resources, facts, exercises) with the help of the product owner
+- Research existing CBT content for dealing with self-esteem
+- Add CTB content to MVP (resources, facts, exercises)
+
+### MVP development - technical
+- Integrate suggestions and feedback from user testing
 - Explore personalisation options (to be discussed with the product owner)
 - Add user authentication options
 - Build Chrome extension and deploy
